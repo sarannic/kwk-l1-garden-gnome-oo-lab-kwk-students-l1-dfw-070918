@@ -43,8 +43,8 @@ class GardenGnome
     @gluten_allergy = gluten_allergy
   end 
   
-  def gnawing_gnome
-    puts "Gnawing on a tree!!!"
+  def gnaw
+    return "Gnawing on a tree!!!"
   end
   
   def shout 
