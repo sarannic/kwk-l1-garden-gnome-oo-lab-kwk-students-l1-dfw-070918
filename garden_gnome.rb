@@ -12,10 +12,7 @@ class GardenGnome
   def personality
     @personality
   end 
-  
-  def personality=(personality)
-    @personality = personality
-  end 
+
   
   def hat_color
     @hat_color
