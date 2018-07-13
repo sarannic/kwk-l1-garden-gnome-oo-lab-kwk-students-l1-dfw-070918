@@ -38,6 +38,14 @@ class GardenGnome
     @age = age 
   end 
   
+  def gluten_allergy
+    @gluten_allergy
+  end 
+  
+  def gluten_allergy=(gluten_allergy)
+    @gluten_allergy = gluten_allergy
+  end 
+  
   def gnaw
     return "Gnawing on a tree!!!"
   end
