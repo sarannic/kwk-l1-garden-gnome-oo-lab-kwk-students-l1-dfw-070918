@@ -48,7 +48,7 @@ class GardenGnome
   end
   
   def shout 
-    puts "GNARLY!!!"
+    return "GNARLY!!!"
   end 
   
   def introduce_self 
