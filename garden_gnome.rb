@@ -22,6 +22,17 @@ class GardenGnome
     @hat_color = hat_color
   end 
   
+  def name 
+    @name 
+  end 
+  
+  def name=(name)
+    @name = name
+  
+  def age 
+    @age
+  end 
+  
   def gnaw
     return "Gnawing on a tree!!!"
   end
