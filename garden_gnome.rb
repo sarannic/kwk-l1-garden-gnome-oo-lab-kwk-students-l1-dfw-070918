@@ -1,8 +1,8 @@
 class GardenGnome
 
   
-  def initialize(personality = "evil", hat_color = "red")
-    @personality = personality
+  def initialize(hat_color = "red")
+    @personality = "Evil"
     @hat_color = hat_color
   end 
   
@@ -44,15 +44,15 @@ class GardenGnome
   end 
   
   def gnaw
-    return "Gnawing on a tree!!!"
+    puts "Gnawing on a tree!!!"
   end
   
   def shout 
-    return "GNARLY!!!"
+    puts "GNARLY!!!"
   end 
   
   def introduce_self 
-    return "Hello humans, my name is #{name}, I am #{age}, and you'll rue the day you crossed me!"
+    puts "Hello humans, my name is #{@name}, I am #{@age}, and you'll rue the day you crossed me!"
   end
 end
 
