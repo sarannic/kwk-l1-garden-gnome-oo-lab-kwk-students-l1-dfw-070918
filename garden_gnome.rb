@@ -47,4 +47,4 @@ end
 gnome4 = GardenGnome.new("Alfred the Abhorrent", "579", "true")
 
 puts gnome4.name
-puts gnome3.name
+
